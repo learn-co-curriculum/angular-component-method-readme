@@ -10,6 +10,8 @@ Angular 1.5 bought the awesome `.component` directive. Don't worry, the learning
 
 ## component()
 
+We use components every day - be it a dropdown box, a login form or a navigation bar. Components are awesome - much like directives, they're reusable, isolated pieces of functionality that we can use again and again. Other frameworks provide similar abilities - in fact the whole of React is based off of components - nothing else!
+
 Instead of passing through a function to our `component` method (like what we do with the `directive` method), we pass through an object instead. This is really similar to the object we return in our directives.
 
 For example:
@@ -74,3 +76,5 @@ Pretty much the same thing! However, there are a few restrictions to using the `
 - When we use `require`, we have to pass through an object instead of a string, with the property being anything that we want and the string being what we'd normally use
     - For example, instead of `{ require: '^parentController' }`, we use `{ require: { parent: '^parentController' } }`
 - We cannot use a `link` or `compile` function
+
+Then why even use them? Well, directives are old and a bit verbose for what we may need 99% of the time. Components are a new, updated method that has matched the way the frontend has changed. Think of them as a simple way to write a directive, and if you need to go complicated, use a directive instead.
