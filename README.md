@@ -2,7 +2,7 @@
 
 ## Overview
 
-Angular 1.5 bought the awesome `.component` directive. Don't worry, the learning curve isn't massive - it's basically a simplified directive!
+Angular 1.5 brought the awesome `.component` directive. Don't worry, the learning curve isn't massive - it's basically a simplified directive!
 
 ## Objectives
 
