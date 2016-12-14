@@ -78,3 +78,7 @@ Pretty much the same thing! However, there are a few restrictions to using the `
 - We cannot use a `link` or `compile` function
 
 Then why even use them? Well, directives are old and a bit verbose for what we may need 99% of the time. Components are a new, updated method that has matched the way the frontend has changed. Think of them as a simple way to write a directive, and if you need to go complicated, use a directive instead.
+
+## Resources
+* [Components, Components, Components](https://youtu.be/AMwjDibFxno)
+<p class='util--hide'>View <a href='https://learn.co/lessons/angular-component-method-readme'>Angular Component Method </a> on Learn.co and start learning to code for free.</p>
